@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+}
+.main {
+    color: green;
+    background-color: black;
+    padding: 50px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.topnav a {
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+header {
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+header h1 {
+    text-align: center;
+}
+h2 {
+    color: white;
+    font-style: initial;
+}
+h3 {
+    text-align: left;
+}
+.project {
+    text-align: left;
+}
+ul, ol {
+    text-align: left;
+}
+footer {
+    text-align: center;
+}
+header, section, footer {
+    box-shadow: 10px 10px 15px green;
+    border-radius: 15px;
+    text-align: center;
+}
+span {
+    color: greenyellow;
+}
+a::before {
+    color: blue;
+}
+a:hover {
+    color: greenyellow;
+}
+a::after {
+    color: violet;
+}
+.introduction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.intro-left {
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.intro-right {
+    padding-right: 350px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+section, header, footer {
+    margin: 50px;
+}
